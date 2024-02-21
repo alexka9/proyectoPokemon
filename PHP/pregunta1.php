@@ -9,7 +9,15 @@
   
 
 <form method="get">
-<input 
+<label>Pregunta 1:</label>
+<input type="text" name="pregunta1">
+<button>Enviar</button>
+</form>
+
+
+
+
+
 
 
 
@@ -24,6 +32,7 @@
 
 session_start();
 
+$=$_GET["pregunta1.php"];
 
 
 
